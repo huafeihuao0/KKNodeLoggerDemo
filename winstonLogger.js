@@ -10,7 +10,7 @@ var winston=require('winston');
  ***/
 function info(txt)
 {
-    winston.log('info',txt);
+    winston.info(txt, {timestamp: Date.now(), pid: process.pid});
 }
 
 /***
@@ -20,7 +20,7 @@ function info(txt)
  ***/
 function warn(txt)
 {
-    winston.log('warn',txt);
+    winston.warn(txt, {timestamp: Date.now(), pid: process.pid});
 }
 
 /***
@@ -30,7 +30,7 @@ function warn(txt)
  ***/
 function error(txt)
 {
-    winston.log('error',txt);
+    winston.error(txt, {timestamp: Date.now(), pid: process.pid});
 }
 
 module.exports=//
