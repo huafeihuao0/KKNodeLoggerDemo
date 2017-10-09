@@ -1,0 +1,19 @@
+{
+  "name": "kknodeloggerdemo",
+  "version": "1.0.0",
+  "description": "node日志测试",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huafeihuao0/KKNodeLoggerDemo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huafeihuao0/KKNodeLoggerDemo/issues"
+  },
+  "homepage": "https://github.com/huafeihuao0/KKNodeLoggerDemo#readme"
+}
