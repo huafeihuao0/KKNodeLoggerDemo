@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/huafeihuao0/KKNodeLoggerDemo/issues"
   },
-  "homepage": "https://github.com/huafeihuao0/KKNodeLoggerDemo#readme"
+  "homepage": "https://github.com/huafeihuao0/KKNodeLoggerDemo#readme",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1",
+    "path": "^0.12.7",
+    "stack-trace": "0.0.10",
+    "winston": "^2.4.0",
+    "winston-daily-rotate-file": "^1.7.2"
+  }
 }
